@@ -12,4 +12,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Introduction}{5}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion}{5}{section.3}
+\contentsline {section}{\numberline {3}Example document}{5}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}File and folder hierarchy}{5}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Chapters and section and appendices}{5}{subsubsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}Figures}{5}{subsubsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Bibliography}{5}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Modifiying the bibliography compiler}{6}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conclusion}{6}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Appendix example}{8}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}A subsection}{8}{subsection.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.1}A subsubsection}{8}{subsubsection.A.1.1}

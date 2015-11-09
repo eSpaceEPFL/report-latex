@@ -59,6 +59,7 @@
 \usepackage[backend=biber, style=trad-abbrv, sorting=nty, defernumbers=true, url=true, isbn=false]{biblatex}
 \setlength{\bibitemsep}{\baselineskip}
 \usepackage{csquotes}
+\usepackage{verbatim}
 
 %---- Set automatic path for figures ----%
 \graphicspath{{fig/}{../fig/}}

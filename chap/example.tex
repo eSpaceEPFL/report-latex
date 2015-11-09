@@ -1,0 +1,45 @@
+\section{Example document}
+
+    This section serves as example to demonstrate appearance of the template. And give information on the way it works.
+
+    \subsection{File and folder hierarchy}
+
+        This template has a preset folder and file hierarchy to have a clear structure. If you know what you're doing, you can play around with it but it works well as is.
+
+        \subsubsection{Chapters and section and appendices}
+
+            It is recommended to place all your sections as separate \texttt{.tex} files and store them in the chap folder. It is the referenced in the main doucment with \verb'\input{chap/example}'.
+
+            Appendices work on the same princile and can be stores in the appendices folder.
+
+        \subsubsection{Figures}
+
+            Figures are stored in the fig folder and \LaTeX will automatically look for the image file there so you should reference it from this folder. A special function was implemented to allow the insertion of a single figure with a single line of code and have the filename, the label, the legend and the width defined.
+
+            {\scriptsize\verb'\figi{cleanspace-one}{fig:cleanspace-one}{Image of CleanSpace One}{0.4\textwidth}'}
+
+            \figi{cleanspace-one}{fig:cleanspace-one}{Image of CleanSpace One}{0.4\textwidth}
+
+
+    \subsection{Bibliography}
+
+        The bibliography is a bit special and the compiler has to be adapted in order to work well. The idea is that there are two kinds of documents in your bibliography. \textit{Applicable documents} and \textit{Reference documents} and those would be stored inside two separate \texttt{.bib} files; \texttt{appdoc.bib} and \texttt{refdoc.bib} respectively. They can be cited in the document with the \verb'\cite{label}' command and gives \cite{Abedon1994} or \cite{AbedonHymanThomas2003}.
+
+        \subsubsection{Modifiying the bibliography compiler}
+
+            This template uses \texttt{Biber} and the compiler (at least for TexLive) has to be modified. A new compiler has to be created called in \texttt{Edit -> Preferences} then in tab called \texttt{Typesetting} under \texttt{Processing tools} click on the + sign and add a new one.
+
+            The parameters should be :
+
+            \begin{description}
+                \item[Name] Biber
+                \item[Program] biber
+                \item[Arguments] \verb'$basename'
+            \end{description}
+
+            Or as summarized on figure \ref{fig:compiler-config}.
+
+            \figi{compiler-config}{fig:compiler-config}{How the compiler should be configured}{0.5\textwidth}
+
+
+
