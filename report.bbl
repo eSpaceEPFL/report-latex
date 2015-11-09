@@ -1,0 +1,78 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{Abedon1994}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=c30b36518404d75a8cd0217ef71ef777}{Abedon}{A\bibinitperiod}{S.\bibnamedelimi T.}{S\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{11}{}{%
+        {{hash=e85ed7084808a6f3a742dd4b11625316}{Karam}{K\bibinitperiod}{Jim\bibnamedelimb D.\bibnamedelimi Karam}{J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=ec438c70622b3e6b61aa243f7867b981}{Drake}{D\bibinitperiod}{John\bibnamedelima W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=44febb47dfee468d90f3ef680ac511c3}{Kreuzer}{K\bibinitperiod}{Kenneth\bibnamedelima N.}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=40de05e0d8308a96a8b0f9d3f95f5eab}{Mosig}{M\bibinitperiod}{Gisela}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=e4941cf54aecc46c8b6fdda0b791756f}{Hall}{H\bibinitperiod}{Dwight}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f51483172df33109afda9f728fb282}{Eiserling}{E\bibinitperiod}{Frederick\bibnamedelima A.}{F\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4e45552b92b36d048fdd55d827a32fa9}{Black}{B\bibinitperiod}{Lindsay\bibnamedelima W.}{L\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=963fbff769f969b42a95e44f256f23ac}{Kutter}{K\bibinitperiod}{Elizabeth}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=45d090f54a39156160ac61f0765c4a70}{Carlson}{C\bibinitperiod}{Karin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=79aa228a2d936fea487aad2a00f4c774}{Miller}{M\bibinitperiod}{Eric\bibnamedelima S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=dceeaa5207e91658e85bf4e3155d723f}{Spicer}{S\bibinitperiod}{Eleanor}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ASM Press, Washington DC}%
+      }
+      \strng{namehash}{c30b36518404d75a8cd0217ef71ef777}
+      \strng{fullhash}{c30b36518404d75a8cd0217ef71ef777}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Molecular biology of bacteriophage T4}
+      \field{title}{Lysis and the interaction between free phages and infected cells}
+      \field{year}{1994}
+      \field{pages}{397\bibrangedash 405}
+      \range{pages}{9}
+      \keyw{appdoc}
+    \endentry
+    \entry{AbedonHymanThomas2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c30b36518404d75a8cd0217ef71ef777}{Abedon}{A\bibinitperiod}{S.\bibnamedelimi T.}{S\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=b7ffd1fefc4a3a74ccd1ac2953515fc6}{Hyman}{H\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=4bd7722aa17e9f2c609dbe495ce6703a}{Thomas}{T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bf1bd1a8f9829226b906e0b48f56c0ad}
+      \strng{fullhash}{bf1bd1a8f9829226b906e0b48f56c0ad}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied and Environmental Microbiology}
+      \field{title}{Experimental examination of bacteriophage latent-period evolution as a response to bacterial availability}
+      \field{volume}{69}
+      \field{year}{2003}
+      \field{pages}{7499\bibrangedash 7506}
+      \range{pages}{8}
+      \keyw{refdoc}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

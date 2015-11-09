@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%
+%% eSpace Report template		%
+%% Main file					%
+%%%%%%%%%%%%%%%%%%%%
+
+%---- Provide document class - DO NOT MODIFY ----%
+\documentclass{eSpaceReport}
+
+%---- Bibliography docs come here ----%
+\addbibresource{refdoc.bib}				% Reference documents (e.g. ECSS)
+\addbibresource{appdoc.bib}				% Applicable documents
+
+%---- Parameters to modify ----%
+\author{Max Muster}						% Author Name
+\projectPhase{Phase C}					% Phase of the project
+\projectName{Work on a satellite}			% Project Name
+\subtitle{For CubETH}						% Subtitle for the project
+\projectType{Minor Project}				% Type of project
+\checkedBy{ }							% Name of first assistant
+\approvedBy{ }							% Name of professor
+\revisionNum{0}							% Document revision number
+
+
+%---- DO NOT TOUCH THIS PART ----%
+\begin{document}
+\maketitle
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\makerecordofrevision
+\tableofcontents \clearpage
+\makelistoftables
+\makelistoffigures
+
+%---- Add your files here from chap folder ----%
+\input{chap/abbreviations}
+\input{chap/intro}
+\input{chap/conclusion}
+\clearpage
+
+%----- Bilbliography ----%
+\nocite{*}
+\printbibheading[title={References}]
+\printbibliography[heading=subbibliography,title={Reference Documents}, keyword=refdoc, prefixnumbers={RD}]
+\printbibliography[heading=subbibliography,title={Applicable Documents}, keyword=appdoc, prefixnumbers={AD},resetnumbers=true]
+\clearpage
+
+
+\appendix
+%---- Add your appendix files here from appendix folder ----%
+%\input{appendix/filename}
+
+\end{document}
