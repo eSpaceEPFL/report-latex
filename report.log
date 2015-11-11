@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.23)  11 NOV 2015 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.23)  11 NOV 2015 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1859,9 +1859,6 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
@@ -1869,7 +1866,7 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  31107 strings out of 493091
  535608 string characters out of 6138531
- 980432 words of memory out of 5000000
+ 980455 words of memory out of 5000000
  33973 multiletter control sequences out of 15000+600000
  50037 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1879,7 +1876,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fo
 nts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:
 /texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (11 pages, 190384 bytes).
+Output written on report.pdf (11 pages, 190387 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  176 compressed objects within 2 object streams
