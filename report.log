@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.23)  9 NOV 2015 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.9.23)  11 NOV 2015 13:16
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**./report.tex
+**./report.tex -shell-escape
 (./report.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
@@ -1523,8 +1523,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1552,8 +1552,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1583,8 +1583,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1613,8 +1613,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1643,8 +1643,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 32.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1683,8 +1683,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1718,8 +1718,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1744,8 +1744,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1773,8 +1773,8 @@ Package epstopdf Info: Source file: <fig/logos/eSpace_LogoWithText_v1.eps>
 rted-to.pdf>
 (epstopdf)                    date: 2015-11-07 23:54:17
 (epstopdf)                    size: 19011 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/logos/eSpace_LogoWithTe
-xt_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
+(epstopdf)             Command: <repstopdf --outfile=fig/logos/eSpace_LogoWithT
+ext_v1-eps-converted-to.pdf fig/logos/eSpace_LogoWithText_v1.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 File: fig/logos/eSpace_LogoWithText_v1-eps-converted-to.pdf Graphic file (type 
@@ -1812,17 +1812,17 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  31091 strings out of 493091
  535310 string characters out of 6138531
- 979019 words of memory out of 5000000
+ 979020 words of memory out of 5000000
  33964 multiletter control sequences out of 15000+600000
  50037 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,18n,96p,1012b,1498s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,18n,96p,1026b,1498s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2015/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fo
 nts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:
 /texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (9 pages, 188216 bytes).
+Output written on report.pdf (9 pages, 188210 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams
