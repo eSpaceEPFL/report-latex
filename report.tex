@@ -26,25 +26,20 @@
 \maketitle
 \pagenumbering{arabic}
 \setcounter{page}{1}
-\makerecordofrevision
+\makerecordofrevision					% Edit entries in chap/recordofrevisions.tex
 \tableofcontents \clearpage
 \makelistoftables
 \makelistoffigures
+\makeabbreviations						% Edit entries in chap/abbreviations.tex
 
 %---- Add your files here from chap folder ----%
 \input{chap/abbreviations}
 \input{chap/intro}
 \input{chap/example}
 \input{chap/conclusion}
-\clearpage
 
 %----- Bilbliography ----%
-\nocite{*}
-\printbibheading[title={References}]
-\printbibliography[heading=subbibliography,title={Reference Documents}, keyword=refdoc, prefixnumbers={RD}]
-\printbibliography[heading=subbibliography,title={Applicable Documents}, keyword=appdoc, prefixnumbers={AD}]
-\clearpage
-
+\makebibliography
 
 \appendix
 %---- Add your appendix files here from appendix folder ----%

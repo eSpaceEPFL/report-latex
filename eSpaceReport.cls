@@ -160,6 +160,11 @@
   \clearpage
 }
 
+%---- Print abbreviations ----%
+\newcommand{\makeabbreviations}{
+  \input{chap/abbrevitaions}
+  \clearpage
+}
 
 %---- Redefine spacing between entry in the bibliography ----%
 \let\oldbibliography\thebibliography
@@ -186,4 +191,14 @@
       \step[fieldset=KEYWORDS, fieldvalue=appdoc, append]
     }
   }
+}
+
+%---- Print the bibliography ----%
+\newcommand{\makebibibliography}{
+  \clearpage
+  \nocite{*}
+  \printbibheading[title={References}]
+  \printbibliography[heading=subbibliography,title={Reference Documents}, keyword=refdoc, prefixnumbers={RD}]
+  \printbibliography[heading=subbibliography,title={Applicable Documents}, keyword=appdoc, prefixnumbers={AD}]
+  \clearpage
 }
