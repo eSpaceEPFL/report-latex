@@ -162,7 +162,7 @@
 
 %---- Print abbreviations ----%
 \newcommand{\makeabbreviations}{
-  \input{chap/abbrevitaions}
+  \input{chap/abbreviations}
   \clearpage
 }
 
@@ -194,7 +194,7 @@
 }
 
 %---- Print the bibliography ----%
-\newcommand{\makebibibliography}{
+\newcommand{\makebibliography}{
   \clearpage
   \nocite{*}
   \printbibheading[title={References}]
