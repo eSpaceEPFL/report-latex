@@ -60,6 +60,7 @@
 \setlength{\bibitemsep}{\baselineskip}
 \usepackage{csquotes}
 \usepackage{verbatim}
+\usepackage{epstopdf}
 
 %---- Set automatic path for figures ----%
 \graphicspath{{fig/}{../fig/}}

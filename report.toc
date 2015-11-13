@@ -22,10 +22,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Modifiying the bibliography compiler}{7}{subsubsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion}{8}{section.3}
+\contentsline {section}{\numberline {3}Conclusion}{7}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Appendix example}{10}{appendix.A}
+\contentsline {section}{\numberline {A}Appendix example}{9}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1}A subsection}{10}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.1}A subsection}{9}{subsection.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {A.1.1}A subsubsection}{10}{subsubsection.A.1.1}
+\contentsline {subsubsection}{\numberline {A.1.1}A subsubsection}{9}{subsubsection.A.1.1}
