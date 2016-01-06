@@ -56,7 +56,7 @@
 \usepackage{background}
 \usetikzlibrary{calc}
 \usepackage{parskip}
-\usepackage[backend=biber, style=trad-abbrv, sorting=nty, defernumbers=true, url=true, isbn=false]{biblatex}
+\usepackage[backend=bibtex, style=trad-abbrv, sorting=nty, defernumbers=true, url=true, isbn=false]{biblatex}
 \setlength{\bibitemsep}{\baselineskip}
 \usepackage{csquotes}
 \usepackage{verbatim}
@@ -180,26 +180,10 @@
 \urlstyle{standard}
 
 
-%---- Bibliography separation based on .bib file ----%
-\DeclareSourcemap{
-  \maps[datatype=bibtex, overwrite]{
-    \map{
-      \perdatasource{refdoc.bib}
-      \step[fieldset=KEYWORDS, fieldvalue=refdoc, append]
-    }
-    \map{
-      \perdatasource{appdoc.bib}
-      \step[fieldset=KEYWORDS, fieldvalue=appdoc, append]
-    }
-  }
-}
-
 %---- Print the bibliography ----%
 \newcommand{\makebibliography}{
   \clearpage
   \nocite{*}
-  \printbibheading[title={References}]
-  \printbibliography[heading=subbibliography,title={Reference Documents}, keyword=refdoc, prefixnumbers={RD}]
-  \printbibliography[heading=subbibliography,title={Applicable Documents}, keyword=appdoc, prefixnumbers={AD}]
+  \printbibliography[prefixnumbers={RD}]
   \clearpage
 }
