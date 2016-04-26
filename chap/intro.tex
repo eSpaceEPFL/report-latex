@@ -1,1 +1,24 @@
 \section{Introduction}
+
+This is a template file for a generic eSpace report. 
+
+Here's how you can refernce ECSS standards
+
+\begin{description}
+\item[Systems engineering] Standard in here \cite{ECSS-E-ST-10C}
+\item[Software] \cite{ECSS-E-ST-70-01C, ECSS-E-ST-70-32C} \cite{ECSS-E-ST-40C}
+\end{description}
+
+\subsection{How to use acronyms} 
+
+\begin{itemize}
+\item Define your acronyms in your main file (report.tex) 
+\item Use acronyms with \texttt{gls} command: we use \gls{COTS} parts
+  in the \gls{CDMS} design. 
+\item Run \texttt{makeglossaries} command after definition of a new acronym 
+\end{itemize}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../report"
+%%% End:
