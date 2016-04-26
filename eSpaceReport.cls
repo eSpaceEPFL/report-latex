@@ -64,7 +64,7 @@
 \usepackage{epstopdf}
 \usepackage[final]{pdfpages}
 \usepackage{longtable}
-
+\usepackage[acronym]{glossaries}
 
 %---- Set automatic path for figures ----%
 \graphicspath{{fig/}{../fig/}}
@@ -90,6 +90,9 @@
 %---- Provide correct unit notation ----%
 \providecommand{\unit}[1]{\, \mathrm{#1}}
 
+
+% Get rid of the annoying warning message. 
+\setlength{\headheight}{52pt} 
 
 %---- Define the headers and footers ----%
 \setlength{\headwidth}{\textwidth}
@@ -175,7 +178,7 @@
 \let\oldbibliography\thebibliography
 \renewcommand{\thebibliography}[1]{%
  \oldbibliography{#1}%
- \setlength{\itemsep}{-5pt}%
+ \setlength{\itemsep}{8pt}%
 }
 
 %---- Redefine color and style of url in the bibliography ----%
