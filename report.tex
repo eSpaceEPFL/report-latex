@@ -12,13 +12,25 @@
 %---- Parameters to modify ----%
 \author{Max Muster}						% Author Name
 \projectPhase{Phase C}					% Phase of the project
-\projectName{Work on a satellite}			% Project Name
-\subtitle{For CubETH}						% Subtitle for the project
+\projectName{The greatest satellite application ever that will me famous}			% Project Name
+\subtitle{Proposal for the Swiss Space Office}						% Subtitle for the project
 \projectType{Minor Project}				% Type of project
 \checkedBy{ }							% Name of first assistant
 \approvedBy{ }							% Name of professor
 \revisionNum{0}							% Document revision number
 
+
+%-------COMMON acronyms----------- % 
+\newacronym{ADCS}{ADCS}{Attitude Determination and Control Subsystem}
+\newacronym{BIP}{BIP}{Behaviour Interaction Priority}
+\newacronym{CDMS}{CDMS}{Control and Data Management Subsystem}
+\newacronym{ECSS}{ECSS}{European Cooperation for Space}
+\newacronym{SSIP}{SSIP}{Swiss Space Implementation Plan} 
+\newacronym{TRL}{TRL}{Technology Readiness Level}
+\newacronym{WBS}{WBS}{Work Breakdown Structure} 
+\newacronym{COTS}{COTS}{Commercial Off-The-Shelf} 
+
+\makeglossaries
 
 %---- DO NOT TOUCH THIS PART ----%
 \begin{document}
@@ -29,18 +41,22 @@
 \tableofcontents \clearpage
 \makelistoftables
 \makelistoffigures
-\makeabbreviations						% Edit entries in chap/abbreviations.tex
+\printglossaries
+%----- Bilbliography ----%
+\makebibliography
 
 %---- Add your files here from chap folder ----%
 \input{chap/intro}
 \input{chap/example}
 \input{chap/conclusion}
 
-%----- Bilbliography ----%
-\makebibliography
-
 \appendix
 %---- Add your appendix files here from appendix folder ----%
 \input{appendix/example}
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
