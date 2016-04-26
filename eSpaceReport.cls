@@ -41,8 +41,9 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{multirow}
 \usepackage{gensymb}
-\usepackage{color}
-\usepackage{colortbl}
+%\usepackage{color}
+%\usepackage{colortbl}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{lastpage}
 \usepackage{listings}
 \usepackage[absolute]{textpos}
@@ -61,6 +62,9 @@
 \usepackage{csquotes}
 \usepackage{verbatim}
 \usepackage{epstopdf}
+\usepackage[final]{pdfpages}
+\usepackage{longtable}
+
 
 %---- Set automatic path for figures ----%
 \graphicspath{{fig/}{../fig/}}
@@ -164,14 +168,14 @@
 %---- Print abbreviations ----%
 \newcommand{\makeabbreviations}{
   \input{chap/abbreviations}
-  \clearpage
+  % \clearpage
 }
 
 %---- Redefine spacing between entry in the bibliography ----%
 \let\oldbibliography\thebibliography
 \renewcommand{\thebibliography}[1]{%
  \oldbibliography{#1}%
- \setlength{\itemsep}{8pt}%
+ \setlength{\itemsep}{-5pt}%
 }
 
 %---- Redefine color and style of url in the bibliography ----%
@@ -182,8 +186,8 @@
 
 %---- Print the bibliography ----%
 \newcommand{\makebibliography}{
-  \clearpage
-  \nocite{*}
+  % \clearpage
+  % \nocite{*}
   \printbibliography[prefixnumbers={RD}]
   \clearpage
 }
