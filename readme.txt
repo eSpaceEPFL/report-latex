@@ -6,10 +6,10 @@ To use this template:
 	CubETH-C-ADCS-Ivanov-KalmanFilterEstimates.tex
 
 2. To compile fully file run:
-   latex $name.tex
+   pdflatex $name.tex
    bibtex $name
    makeglossaries $name
-   latex $name
+   pdflatex $name
 
    You only need to run bibtex and makeglossaries once, after you have
    introduced new reference items or acronyms.
