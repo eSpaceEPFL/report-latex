@@ -96,7 +96,7 @@
 
 %---- Define the headers and footers ----%
 \setlength{\headwidth}{\textwidth}
-\fancyhead[LO,RE]{\includegraphics[width=2cm]{logos/eSpace_LogoWithText_v1}}
+\fancyhead[LO,RE]{\includegraphics[width=2cm]{logos/skoltech_logo}}
 \setlength{\headsep}{15mm}
 \fancyhead[LE,RO]{%
     \begin{tabular}{lr}
@@ -125,12 +125,12 @@
     \begin{multicols}{2}
 
     %left column
-    {   \includegraphics[width=4cm]{logos/logo_EPFL}
+    {   \includegraphics[width=4cm]{logos/skoltech_logo}
         \vspace*{0.5\textwidth}
         \hrule \vspace{2mm} Prepared by:\vspace{4mm}\\ \textsc{\@author} \vspace{16mm}
         \hrule \vspace{2mm} Checked by:\vspace{4mm}\\ \textsc{\@checkedBy} \vspace{16mm}
         \hrule \vspace{2mm} Approved by:\vspace{4mm}\\ \textsc{\@approvedBy} \vspace{16mm}
-        \hrule \vspace{10mm} \begin{center} Space Engineering Center\\ EPFL\\ Lausanne\\ Switzerland\\ $\bullet$\\ \today\\ \end{center}
+        \hrule \vspace{10mm} \begin{center} Space Center\\ Skoltech\\ Moscow\\ Russia\\ $\bullet$\\ \today\\ \end{center}
     }
     %right column
     {   \columnbreak{ \Large \textbf{\@projectPhase}} \vspace{12mm}\\
