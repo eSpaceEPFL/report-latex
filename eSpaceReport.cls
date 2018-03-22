@@ -110,9 +110,9 @@
 
 
 %---- Draw the black border around the pages ----%
-\backgroundsetup{color=black,scale=1,opacity=1,angle=0,contents={\tikz\draw[line width=1pt,black]
-  ( $ (current page.south east) + (-1.5,0.75) $ ) rectangle ( $ (current page.north west) + (1.5,-1) $ );}
-}
+%\backgroundsetup{color=black,scale=1,opacity=1,angle=0,contents={\tikz\draw[line width=1pt,black]
+%  ( $ (current page.south east) + (-1.5,0.75) $ ) rectangle ( $ (current page.north west) + (1.5,-1) $ );}
+%}
 
 %---- No border on titlepage ----%
 \newcommand{\nocolourframe}{%
@@ -140,7 +140,7 @@
         \large{ \@projectType} \vspace{20mm}\\
         \hfill\includegraphics[width=7cm]{logos/planet_Logo}
         \vfill
-        \hfill\includegraphics[width=4cm]{logos/eSpace_LogoWithText_v1}
+        \hfill\includegraphics[width=4cm]{logos/skoltech_logo}
     }
     \end{multicols}
     \clearpage
